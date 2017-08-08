@@ -23,11 +23,11 @@ public class PlayerOneTurret : MonoBehaviour
 
     void RotationTurret()
     {
-        if (Input.GetKey(KeyCode.Z))
+        if (Input.GetKey(KeyCode.E))
         {
             transform.Rotate(0, 0,1);
         }
-        if (Input.GetKey(KeyCode.C))
+        if (Input.GetKey(KeyCode.Q))
         {
             transform.Rotate(0, 0, -1);
         }
